@@ -1,0 +1,47 @@
+.task-detail-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .task-detail-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+  }
+  
+  .task-detail-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .completed {
+    background-color: #3c57a7;
+    color: white;
+  }
+  
+  .delete {
+    background-color: rgb(180, 85, 85);
+    color: white;
+  }
+  
+  .update {
+    background-color: ivory;
+    color: black;
+  }
+  .cancel-button {
+    background-color: #999;
+    color: white;
+    margin-top: 10px;
+  }
